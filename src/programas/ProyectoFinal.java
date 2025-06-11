@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ProyectoFinal {
     public static void main(String[] args) {
-        int n1, n2, n3, producto;
+        int n1, n2, n3, producto,suma;
         Scanner lectura = new Scanner(System.in);
         
         // Entrada de datos
@@ -19,8 +19,10 @@ public class ProyectoFinal {
 
         // Procesamiento
         producto = n1 * n2 * n3;
+        suma=n1+n2+n3;
 
         // Salida de resultados
         System.out.println("El producto de los tres números es: " + producto);
+        System.out.println("Suma de los tres números es: " + suma);
     }
 }
